@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class TestController {
     @GetMapping("/")
     public String index() {
-        return "Greetings from Spring Boot! -v2";
+        return "Greetings from Spring Boot! -v3";
     }
 }
